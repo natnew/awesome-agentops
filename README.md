@@ -317,17 +317,20 @@ Operational concerns for multi-agent systems:
 - [AgentBench](https://arxiv.org/abs/2308.03688) - Benchmark for evaluating LLMs as agents across environments.
 - [AI Incident Database](https://incidentdatabase.ai/) - Public incident database useful for governance and risk analysis.
 
-## Contributing
-
-Contributions are welcome if they improve the usefulness and focus of the list. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening an issue or pull request.
-
-High-signal additions usually include:
-
-- A clear production AgentOps use case.
-- Evidence that the project is maintained or influential.
-- A concise description of what operational problem it solves.
-- No affiliate links, tracking links, or vague marketing copy.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+<p align="center">
+  <img src="assets/We love Contributors — section title banner.png" alt="We love Contributors" width="480">
+</p>
+
+<p align="center">
+Thrilled to have you here.<br>
+Whether it's a quick typo fix, a fresh resource,<br> a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br>
+Jump in and join the community — PRs of every size are welcome.
+</p>
+
+<p align="center">
+📝 <a href="CONTRIBUTING.md">Read the contributing guide</a>  ·  🐛 <a href="https://github.com/natnew/awesome-agentops/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a>
+</p>
