@@ -4,6 +4,10 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![Links Checked](https://img.shields.io/badge/links-checked-brightgreen.svg)](#contents)
+[![Focus: AgentOps](https://img.shields.io/badge/focus-AgentOps-blue.svg)](#scope)
+[![Status: v0.1](https://img.shields.io/badge/status-v0.1-informational.svg)](#contributing)
 
 AgentOps is the production operating layer for AI agents. It is broader than agent monitoring: it covers how teams ship, observe, evaluate, debug, secure, control, and improve autonomous or semi-autonomous AI systems after they leave a demo environment.
 
@@ -317,9 +321,7 @@ Operational concerns for multi-agent systems:
 - [AgentBench](https://arxiv.org/abs/2308.03688) - Benchmark for evaluating LLMs as agents across environments.
 - [AI Incident Database](https://incidentdatabase.ai/) - Public incident database useful for governance and risk analysis.
 
-## License
-
-MIT. See [LICENSE](LICENSE).
+## Contributing
 
 <p align="center">
   <img src="assets/We love Contributors — section title banner.png" alt="We love Contributors" width="480">
@@ -334,3 +336,7 @@ Jump in and join the community — PRs of every size are welcome.
 <p align="center">
 📝 <a href="CONTRIBUTING.md">Read the contributing guide</a>  ·  🐛 <a href="https://github.com/natnew/awesome-agentops/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a>
 </p>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
