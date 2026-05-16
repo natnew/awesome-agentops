@@ -138,6 +138,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Llama Guard](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/) - Meta's safety classification model family for policy enforcement.
 - [Rebuff](https://github.com/protectai/rebuff) - Prompt injection detection and mitigation framework.
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) - Runtime protection for LLM applications against prompt injection and unsafe content.
+- [APort](https://aport.io/) - Runtime policy and verification layer for AI agents and MCP-connected tools.
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
 
 ## Security, Identity, and Access Control
