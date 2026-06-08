@@ -163,6 +163,7 @@ Operational topics to cover in production reviews:
 - [Inngest](https://www.inngest.com/) - Durable functions and event-driven workflows for reliable background execution.
 - [Hatchet](https://github.com/hatchet-dev/hatchet) - Distributed task queue and workflow engine.
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - Human approval workflows for AI agents and tool calls.
+- [Tenet](https://www.trytenet.com) - Request-path approval gates for AI agents: routes irreversible tool calls (delete, refund, payout, prod deploy) to a human before they execute, enforces a hard inference cost cap, and records every decision in a tamper-evident audit log. Python SDK, works with LangChain/LangGraph.
 
 Useful approval patterns:
 
