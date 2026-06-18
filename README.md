@@ -164,6 +164,7 @@ Operational topics to cover in production reviews:
 - [Inngest](https://www.inngest.com/) - Durable functions and event-driven workflows for reliable background execution.
 - [Hatchet](https://github.com/hatchet-dev/hatchet) - Distributed task queue and workflow engine.
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - Human approval workflows for AI agents and tool calls.
+- [Tenet](https://www.trytenet.com/) - Approval gates, cost caps, credential mediation, and audit logs for AI agent tool calls.
 
 Useful approval patterns:
 
