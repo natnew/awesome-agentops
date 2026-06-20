@@ -113,6 +113,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Weights & Biases Weave](https://github.com/wandb/weave) - Tracking and evaluation for LLM applications.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source observability platform for LLM usage, cost, latency, and requests.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Session replay, analytics, and observability for AI agents.
+- [ax](https://github.com/Necmttn/ax) - Local telemetry and recall graph for AI coding-agent sessions, including cost, tool, skill, routing, hook, and OTLP analytics.
 
 ## Evaluation and Testing
 
