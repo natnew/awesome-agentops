@@ -123,6 +123,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Giskard](https://github.com/Giskard-AI/giskard) - Testing and risk scanning for AI systems.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework for large language model evaluations.
 - [Braintrust](https://www.braintrust.dev/) - Evaluation, logging, and prompt iteration platform for AI products.
+- [AgentCompass](https://arxiv.org/abs/2607.13705) - Evaluation infrastructure for agent benchmarks, harnesses, environments, asynchronous execution, and trajectory-level failure analysis.
 
 ## Replay and Debugging
 
