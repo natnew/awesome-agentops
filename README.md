@@ -124,6 +124,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework for large language model evaluations.
 - [Braintrust](https://www.braintrust.dev/) - Evaluation, logging, and prompt iteration platform for AI products.
 - [AgentCompass](https://arxiv.org/abs/2607.13705) - Evaluation infrastructure for agent benchmarks, harnesses, environments, asynchronous execution, and trajectory-level failure analysis.
+- [LLMs Get Lost in Evolving User Intent](https://github.com/microsoft/evolving-intent) - Benchmark framework for testing whether agents track incrementally revealed, revised, and redirected user intent across multi-turn tasks.
 
 ## Replay and Debugging
 
