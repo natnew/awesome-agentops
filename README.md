@@ -325,6 +325,7 @@ Operational concerns for multi-agent systems:
 - [AgentBench](https://arxiv.org/abs/2308.03688) - Benchmark for evaluating LLMs as agents across environments.
 - [AI Incident Database](https://incidentdatabase.ai/) - Public incident database useful for governance and risk analysis.
 - [Where Facts Go Missing: A Layerwise Taxonomy and Per-Layer Attribution of Information Omission in Air-Gapped LLM Agent Pipelines](https://arxiv.org/abs/2607.22448) - Presents a layerwise taxonomy and per-layer attribution method for locating information omissions in air-gapped LLM agent pipelines, helping operators evaluate and debug where facts are lost across pipeline stages.
+- [MemTrapBench](https://arxiv.org/abs/2608.20202) - Benchmark for cognitive traps in LLM memory use, showing that accurately retrieved memories can still induce reasoning fixation and belief distortion that degrade task performance, paired with AdaptiveMem, an inference-time method that checks whether retrieved memories apply before use.
 
 ## Contributing
 
