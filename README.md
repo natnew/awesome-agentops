@@ -179,6 +179,7 @@ Useful approval patterns:
 
 - [LiteLLM](https://github.com/BerriAI/litellm) - LLM gateway for model routing, budgets, retries, keys, and provider abstraction.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway for observability, caching, routing, guardrails, and reliability.
+- [Bifrost](https://github.com/maximhq/bifrost) - OpenAI-compatible gateway for provider routing, failover, guardrails, usage controls, MCP, and production observability.
 - [Ray Serve](https://docs.ray.io/en/latest/serve/index.html) - Scalable model and application serving for Python workloads.
 - [BentoML](https://github.com/bentoml/BentoML) - Framework for building and deploying AI applications.
 - [Modal](https://modal.com/) - Serverless infrastructure for AI and data workloads.
