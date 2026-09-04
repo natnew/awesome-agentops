@@ -114,6 +114,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Helicone](https://github.com/Helicone/helicone) - Open-source observability platform for LLM usage, cost, latency, and requests.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Session replay, analytics, and observability for AI agents.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry and recall graph for AI coding-agent sessions, including cost, tool, skill, routing, hook, and OTLP analytics.
+- [agent-watch](https://github.com/soul-sol/agent-watch) - POSIX shell scripts that classify background coding-agent runs as RUNNING, DONE, FAILED, or STALL and preflight transport versus authentication failures.
 
 ## Evaluation and Testing
 
