@@ -143,7 +143,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Rebuff](https://github.com/protectai/rebuff) - Prompt injection detection and mitigation framework.
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) - Runtime protection for LLM applications against prompt injection and unsafe content.
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
-- [Gram](https://github.com/speakeasy-api/gram) - Open-source AI control plane for connecting agents to MCPs with policy enforcement, granular access control, and observability.
+- [Speakeasy](https://www.speakeasy.com/product/ai-control-plane) - Enterprise AI control plane that enforces policy on agent access and tool calls, with audit trails.
 
 ## Security, Identity, and Access Control
 
