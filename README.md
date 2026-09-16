@@ -114,6 +114,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Helicone](https://github.com/Helicone/helicone) - Open-source observability platform for LLM usage, cost, latency, and requests.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Session replay, analytics, and observability for AI agents.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry and recall graph for AI coding-agent sessions, including cost, tool, skill, routing, hook, and OTLP analytics.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Free open-source monitoring dashboard for AI agents: token usage, session tracking, 7-day trends, multi-model support. Vue 3 + ECharts.
 
 ## Evaluation and Testing
 
