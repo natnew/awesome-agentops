@@ -152,6 +152,8 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [PyRIT](https://github.com/Azure/PyRIT) - Microsoft framework for red teaming generative AI systems.
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
+- [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+
 
 Operational topics to cover in production reviews:
 
