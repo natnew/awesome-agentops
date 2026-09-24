@@ -114,6 +114,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Helicone](https://github.com/Helicone/helicone) - Open-source observability platform for LLM usage, cost, latency, and requests.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Session replay, analytics, and observability for AI agents.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry and recall graph for AI coding-agent sessions, including cost, tool, skill, routing, hook, and OTLP analytics.
+- [Failproof](https://github.com/FailproofAI/failproofai) - Tracing and runtime policy enforcement for coding-agent harnesses such as Claude Code, Cursor, and GitHub Copilot.
 
 ## Evaluation and Testing
 
@@ -126,6 +127,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Braintrust](https://www.braintrust.dev/) - Evaluation, logging, and prompt iteration platform for AI products.
 - [AgentCompass](https://arxiv.org/abs/2607.13705) - Evaluation infrastructure for agent benchmarks, harnesses, environments, asynchronous execution, and trajectory-level failure analysis.
 - [LLMs Get Lost in Evolving User Intent](https://github.com/microsoft/evolving-intent) - Benchmark framework for testing whether agents track incrementally revealed, revised, and redirected user intent across multi-turn tasks.
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
 
 ## Replay and Debugging
 
@@ -143,6 +145,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Rebuff](https://github.com/protectai/rebuff) - Prompt injection detection and mitigation framework.
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) - Runtime protection for LLM applications against prompt injection and unsafe content.
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
+- [Speakeasy](https://www.speakeasy.com/product/ai-control-plane) - Control plane for policy enforcement, access control, and audit trails across AI agents, MCP servers, and tool calls.
 
 ## Security, Identity, and Access Control
 
