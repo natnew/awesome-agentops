@@ -183,6 +183,7 @@ Useful approval patterns:
 - [BentoML](https://github.com/bentoml/BentoML) - Framework for building and deploying AI applications.
 - [Modal](https://modal.com/) - Serverless infrastructure for AI and data workloads.
 - [Fly.io](https://fly.io/) - Application runtime useful for globally deployed agent services.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Self-hosted agent runtime with persistent sessions, MCP tools, sandbox providers, approvals, credentials, audit logs, and replay.
 
 ## Cloud AgentOps Platforms
 
