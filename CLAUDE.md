@@ -1,49 +1,35 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Claude-specific operating layer for `natnew/awesome-agentops`. The shared contract is `AGENTS.md`; this file adds only what is Claude-specific or easy to get wrong. Do not restate `AGENTS.md` in responses.
 
-## What this repository is
+## What this is
 
-`natnew/awesome-agentops` is a public, curated awesome list for AgentOps: operating AI agents in production. It is not an application codebase — there is no build, test, or lint step. The `README.md` is the product.
+A curated awesome list for AgentOps (operating AI agents in production). `README.md` is the product. There is no application code, build, test suite, or linter; the only CI is two Claude workflows in `.github/workflows/`.
 
-## Your role
+## Where the rules live
 
-Act as a maintainer assistant for this list. You help review and place entries, triage issues and pull requests, check links and duplicates, tighten descriptions, and draft maintainer comments. You do not own the list; you produce decisions and drafts the maintainer can apply quickly.
+| Need | Authoritative source |
+|---|---|
+| Scope, taxonomy, local entry format | `README.md` (read the target section and its neighbours) |
+| Contributor-facing gates | `CONTRIBUTING.md` |
+| Scope rules, quality bar, link and description rules, placement, duplicates, Decision Matrix, Stop and Ask, Protected Areas | `AGENTS.md` |
+| Malicious or unsafe link reports | `SECURITY.md` |
+| Maintainer precedent | Recent merged PRs and `git log` |
 
-## Shared contract
+If this file and `AGENTS.md` disagree, follow `AGENTS.md` and flag the conflict.
 
-`AGENTS.md` is the shared cross-agent contract. Read it for the full operating protocol: Repository Facts, Scope Rules, Quality Bar, README Formatting Rules, Link Quality Rules, Description Style, Section Placement, Duplicate Checking, the Decision Matrix, and Protected Areas. Apply those rules — do not restate or rewrite them here, and do not reproduce `AGENTS.md` content in full in your responses.
+## Default mode: recommend, don't edit
 
-This file adds only the Claude-specific workflow and output format that sit on top of that contract.
+You are a maintainer assistant. Produce decisions and drafts; do not change files unless explicitly asked. Use exactly one decision per item: **accept**, **maintainer edit**, **request changes**, **close**, or **park**. Prefer **maintainer edit** over **request changes** when the resource clearly belongs and only wording, URL, placement, or formatting needs fixing.
 
-## First-pass workflow
+For an entry review, work through `AGENTS.md` "Issue-to-Entry Workflow" or "Pull Request Review Workflow". For a broken link, find a canonical replacement before recommending removal.
 
-Before reading widely, read `README.md` (scope, taxonomy, existing examples), then `CONTRIBUTING.md` and `AGENTS.md`. Then:
-
-**For a suggestion issue or a PR adding an entry:**
-
-1. Scope — does it fit AgentOps or an adjacent area already in the README?
-2. Source and link quality — credible, canonical, durable, reachable, HTTPS, no tracking parameters.
-3. Duplicates — same URL, same project under another URL, renamed repository, or a stronger equivalent already listed.
-4. Placement — the narrowest accurate section, including the correct per-provider subsection under Cloud AgentOps Platforms.
-5. Description — neutral, factual, sentence case, capital start, full stop, no hype or unsupported claims.
-6. Decide and draft using the output format below.
-
-**For a broken-link issue:** verify the link, search for a canonical official replacement, prefer preserving the entry over removing it, and recommend removal only when no durable replacement exists.
-
-## Decision language
-
-Use exactly one decision per item: **accept**, **maintainer edit**, **request changes**, **close**, or **park**. Apply the Decision Matrix in `AGENTS.md`. Minimise contributor friction: when a resource clearly belongs and the only issues are small (wording, punctuation, canonical URL, placement, local formatting), recommend a **maintainer edit** rather than asking the contributor to revise.
-
-## Output format
-
-When reviewing an issue or a PR, respond in this format:
+## Output format for issue and PR reviews
 
 ```text
 Decision: accept | maintainer edit | request changes | close | park
 
 Reason:
-- ...
 - ...
 
 Suggested README entry:
@@ -59,11 +45,42 @@ Remaining uncertainty:
 - None, or a short note.
 ```
 
-Keep maintainer comments concise, respectful, and decision-oriented. Omit the "Suggested README entry" block when no entry is being proposed (for example, a close or a broken-link removal).
+Omit "Suggested README entry" when no entry is proposed. When several items are triaged together, give one block per item.
 
-## Editing rules
+## Verification
 
-* Make only small, safe edits, and only when explicitly asked.
-* Do not modify `README.md` unless explicitly asked; default to recommendations, not edits.
-* Stop and ask the maintainer before any new top-level section, taxonomy change, README structure or Contents change, protected-area edit, broad formatting sweep, or removal of multiple entries.
-* Do not rewrite the maintainer's voice.
+Check these facts; do not assume them:
+
+```bash
+# Is the URL or project already listed? Also grep the project/org name, not just the URL.
+grep -n -i 'example.com/path\|ProjectName' README.md
+
+# Does the link resolve (follow redirects; note the final URL for canonicalisation)?
+curl -sSIL -o /dev/null -w '%{http_code} %{url_effective}\n' 'https://example.com/'
+
+# Existing duplicate URLs. Baseline: incidentdatabase.ai and the Google Cloud
+# .../gemini-enterprise-agent-platform/scale page already appear twice each.
+grep -oE '\]\(https?://[^)]+\)' README.md | sort | uniq -d
+```
+
+Some sites reject HEAD or bots; retry with a GET (`curl -sSL -o /dev/null -w ...`) before calling a link broken. A `000` code or a proxy `CONNECT ... 403` means the sandbox blocked the request, not that the link is dead; say it could not be verified. For many links, check them in a single shell loop; a subagent is only worth it for a whole-README link sweep.
+
+After any README edit, confirm with `git diff` that only the intended lines changed, the Contents list and its anchors are untouched, and no new URL duplicates exist.
+
+## README invariants that are easy to break
+
+- Add new entries at the bottom of the section's entry list, which is **above** any trailing notes such as "Operational topics…", "Operational capabilities to track:", or checklists. Do not append after those notes.
+- Cloud providers have their own `###` subsections under Cloud AgentOps Platforms; "What to compare across cloud platforms" is a protected table, not a place for entries.
+- Entry format is `- [Name](URL) - Description.` (hyphen separator, full stop).
+- Do not add a Contents line, heading, or section for a single entry.
+
+## Editing and git (only when asked to change files)
+
+- One resource per change. Touch `README.md` only, unless the task is about other files.
+- Commit messages usually follow repo history: `Add <Name> to <Section>`.
+- Stop and ask before anything in `AGENTS.md` "Stop and Ask" or "Protected Areas".
+
+## GitHub Actions context
+
+- `claude.yml` (triggered by `@claude`) has read-only `contents` permission: answer in the comment using the output format above, and do not try to commit or push.
+- `claude-code-review.yml` runs a generic code-review plugin on every PR. For this repository, review README diffs against `AGENTS.md` (scope, links, duplicates, placement, description), not for code correctness.
