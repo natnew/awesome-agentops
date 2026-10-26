@@ -396,6 +396,7 @@ Operational concerns for multi-agent systems:
 - [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 - [Back Up Before You Regret](https://arxiv.org/abs/2610.28934) - Introduces RegretBench, showing that coding agents rarely back up state before changing it, and BackUpper, a harness plug-in that cheaply saves affected state beforehand.
+- [SciΠvot](https://arxiv.org/abs/2610.21082) - Benchmark of 248 judgment calls taken from senior researchers' real corrections of LLM research agents on 26 projects, showing that frontier models lean toward the agent's original plan and that four of five score below chance at deciding when to change course.
 
 ## Contributing
 
