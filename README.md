@@ -117,6 +117,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [agent-watch](https://github.com/soul-sol/agent-watch) - POSIX shell scripts that classify background coding-agent runs as RUNNING, DONE, FAILED, or STALL and preflight transport versus authentication failures.
 - [Failproof](https://github.com/FailproofAI/failproofai) - Tracing and runtime policy enforcement for coding-agent harnesses such as Claude Code, Cursor, and GitHub Copilot.
 - [Agent Observatory](https://github.com/abhishekash/agent-observatory) - Local dashboard for inspecting coding-agent sessions, tool activity, MCP calls, traces, and host processes.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted dashboard for OpenClaw agent deployments: per-model token usage, session status and runtime tracking, and 7-day usage trends (stable v1.0.0 release).
 - [LiteLLM Lens](https://docs.litellm.ai/docs/proxy/lens) - Agent trace analysis for LiteLLM Proxy that investigates failures across runs, groups recurring problems, and links findings to the original OpenTelemetry traces.
 - [MLflow Tracing](https://mlflow.org/docs/latest/genai/tracing/) - Open-source tracing for LLM and agent applications with OpenTelemetry ingestion, LLM-judge evaluation, and links to MLflow experiment lineage.
 - [OpenInference](https://github.com/Arize-ai/openinference) - OpenTelemetry instrumentation and span conventions for tracing LLM calls, tools, and agent frameworks.
