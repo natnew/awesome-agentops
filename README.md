@@ -177,6 +177,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
 - [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 - [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault and records each action in an audit log.
+- [Agent Coach](https://upskill.coach/research/agent-skill-security) - Security-scans agent skill repos and MCP servers at a pinned commit (prompt-injection text in agent-facing files, credential reads next to network calls, committed secrets, vulnerable dependencies, pipe-to-shell installs) before recommending them to agents, and publishes the method and aggregate findings; also exposes a remote MCP server.
 
 
 Operational topics to cover in production reviews:
