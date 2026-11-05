@@ -143,6 +143,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
 - [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
 - [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) - Benchmark for multi-agent orchestration prompts that tests whether a model gives each sub-agent the context it needs without omissions or cross-role leakage.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Benchmark for agents that reconstruct full-stack websites through browser exploration, evaluated on appearance and behavior.
 
 
 ## Replay and Debugging
