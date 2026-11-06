@@ -196,6 +196,8 @@ Operational topics to cover in production reviews:
 - [Tenet](https://www.trytenet.com/) - Approval gates, cost caps, credential mediation, and audit logs for AI agent tool calls.
 - [LedgerGuard](https://github.com/Val1-IT/Arvanta-Ledgerguard) - Policy checks and human approval bound to a plan version for agent-proposed Postgres writes, with execution keys that stop a retried write from running twice.
 
+- [Kortix](https://kortix.com/) - Open-source CompanyOS that runs AI agents on cloud computers with a per-tool Allow, Ask or Block rule, approval gates and an audit trail, so a person decides which calls run.
+
 Useful approval patterns:
 
 - Require approval for external side effects such as sending email, spending money, merging code, or changing infrastructure.
