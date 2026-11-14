@@ -156,6 +156,8 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI and report generator for auditing AI coding-agent session logs, cost, tokens, latency, tool failures, health, and regression checks.
 - [Transect](https://github.com/AI-Safety-Institute/transect) - Transcript analysis for long-horizon agent evaluations that places events, token use, sub-agent activity, and LLM-judge behaviour labels on a turn-based timeline, with judge-disagreement flags and links back to the source transcript.
 
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Local teaching simulator for replaying recovery failures and checking completion claims against persisted state; scripted baselines, not a live-model benchmark.
+
 ## Guardrails and Runtime Controls
 
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and guardrail framework for LLM inputs and outputs.
