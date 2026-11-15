@@ -145,6 +145,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
 - [AgentLeak](https://github.com/yagobski/agentleak) - Python SDK and CLI for local privacy-leakage analysis of agent execution traces, with per-channel findings and configurable CI privacy-policy checks.
 - [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) - Benchmark for multi-agent orchestration prompts that tests whether a model gives each sub-agent the context it needs without omissions or cross-role leakage.
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of recorded agent traces, A2A AgentCards and MCP tool lists, with per-check evidence and CI reports.
 
 
 ## Replay and Debugging
