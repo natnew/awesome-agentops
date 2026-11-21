@@ -146,6 +146,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [AgentLeak](https://github.com/yagobski/agentleak) - Python SDK and CLI for local privacy-leakage analysis of agent execution traces, with per-channel findings and configurable CI privacy-policy checks.
 - [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) - Benchmark for multi-agent orchestration prompts that tests whether a model gives each sub-agent the context it needs without omissions or cross-role leakage.
 - [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of recorded agent traces, A2A AgentCards and MCP tool lists, with per-check evidence and CI reports.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Benchmark for agents that reconstruct full-stack websites through browser exploration, evaluated on appearance and behavior.
 
 
 ## Replay and Debugging
@@ -156,6 +157,8 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Weave Tracing](https://docs.wandb.ai/weave) - Tracing and interactive debugging for model and agent workflows.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI and report generator for auditing AI coding-agent session logs, cost, tokens, latency, tool failures, health, and regression checks.
 - [Transect](https://github.com/AI-Safety-Institute/transect) - Transcript analysis for long-horizon agent evaluations that places events, token use, sub-agent activity, and LLM-judge behaviour labels on a turn-based timeline, with judge-disagreement flags and links back to the source transcript.
+
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Local teaching simulator for replaying recovery failures and checking completion claims against persisted state; scripted baselines, not a live-model benchmark.
 
 ## Guardrails and Runtime Controls
 
@@ -180,6 +183,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
 - [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 - [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault and records each action in an audit log.
+- [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - Remote MCP server and agent skills that let coding agents check npm packages for malware, known vulnerabilities, maintainer takeovers, and install scripts before installing them.
 
 
 Operational topics to cover in production reviews:
@@ -401,6 +405,7 @@ Operational concerns for multi-agent systems:
 - [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 - [Back Up Before You Regret](https://arxiv.org/abs/2610.28934) - Introduces RegretBench, showing that coding agents rarely back up state before changing it, and BackUpper, a harness plug-in that cheaply saves affected state beforehand.
+- [SciΠvot](https://arxiv.org/abs/2610.21082) - Benchmark of 248 judgment calls taken from senior researchers' real corrections of LLM research agents on 26 projects, showing that frontier models lean toward the agent's original plan and that four of five score below chance at deciding when to change course.
 
 ## Contributing
 
