@@ -126,6 +126,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Claude Agent SDK Observability](https://code.claude.com/docs/en/agent-sdk/observability) - OpenTelemetry export of traces, metrics, and events for Claude Agent SDK runs, including tool calls, hooks, and nested subagent spans.
 - [Flowlines](https://flowlines.ai/) - Hosted analytics for MCP servers and agent sessions that links tool adoption, reported outcomes, and recurring failures to the source sessions.
 - [Black Box](https://tryblackbox.dev/) - Tamper-evident audit log for AI agents that records every model and tool call and can be verified offline with `bbx verify`.
+- [ClickHouse Loom](https://github.com/ClickHouse/loom) - Self-hosted agent data plane with run records, tool-call observations, and searchable conversations from its coding-agent plugins; conversation recording is opt-in, and plain MCP connections do not capture transcripts.
 
 
 
