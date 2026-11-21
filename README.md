@@ -173,6 +173,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
 - [Speakeasy](https://www.speakeasy.com/product/ai-control-plane) - Control plane for policy enforcement, access control, and audit trails across AI agents, MCP servers, and tool calls.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Middleware that evaluates agent tool calls, resource access, and inter-agent messages against YAML, Rego, or Cedar policies before execution.
+- [HOL Guard](https://hol.org/guard) - Open-source, local-first checks for supported AI coding-agent tool actions, with policy-based allow, block and approval decisions.
 
 ## Security, Identity, and Access Control
 
