@@ -27,6 +27,7 @@ AgentOps is the production operating layer for AI agents. It is broader than age
 - [Multi-Agent Operations](#multi-agent-operations)
 - [Standards and Protocols](#standards-and-protocols)
 - [Research and References](#research-and-references)
+- [Contributors](#contributors)
 - [Contributing](#contributing)
 
 ## AgentOps vs DevOps vs MLOps
@@ -316,6 +317,56 @@ When evaluating cloud AgentOps capabilities, compare:
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 - [Back Up Before You Regret](https://arxiv.org/abs/2610.28934) - Introduces RegretBench, showing that coding agents rarely back up state before changing it, and BackUpper, a harness plug-in that cheaply saves affected state beforehand.
 - [SciΠvot](https://arxiv.org/abs/2610.21082) - Benchmark of 248 judgment calls taken from senior researchers' real corrections of LLM research agents on 26 projects, showing that frontier models lean toward the agent's original plan and that four of five score below chance at deciding when to change course.
+
+## Contributors
+
+Thanks to everyone who has contributed to this list.
+
+<table>
+<tbody>
+  <tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/natnew"><img src="https://avatars.githubusercontent.com/u/37782009?v=4&s=100" width="80" alt="natnew"><br><sub><b>@natnew</b></sub></a><br><span title="Maintenance">🚧</span><span title="Content">🖋</span><span title="Documentation">📖</span><span title="Infrastructure">🚇</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/AbdulDavids"><img src="https://avatars.githubusercontent.com/u/125186956?v=4&s=100" width="80" alt="AbdulDavids"><br><sub><b>@AbdulDavids</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/abhishekash"><img src="https://avatars.githubusercontent.com/u/79878353?v=4&s=100" width="80" alt="abhishekash"><br><sub><b>@abhishekash</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/AffixIO"><img src="https://avatars.githubusercontent.com/u/249193704?v=4&s=100" width="80" alt="AffixIO"><br><sub><b>@AffixIO</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ajitesh-lab"><img src="https://avatars.githubusercontent.com/u/110455913?v=4&s=100" width="80" alt="Ajitesh-lab"><br><sub><b>@Ajitesh-lab</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/alex-n-ayoub"><img src="https://avatars.githubusercontent.com/u/261878746?v=4&s=100" width="80" alt="alex-n-ayoub"><br><sub><b>@alex-n-ayoub</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/BobbyZhouZijian"><img src="https://avatars.githubusercontent.com/u/50571615?v=4&s=100" width="80" alt="BobbyZhouZijian"><br><sub><b>@BobbyZhouZijian</b></sub></a><br><span title="Content">🖋</span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/InsightFactoryAPP"><img src="https://avatars.githubusercontent.com/u/168487014?v=4&s=100" width="80" alt="InsightFactoryAPP"><br><sub><b>@InsightFactoryAPP</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/kantorcodes"><img src="https://avatars.githubusercontent.com/u/6068672?v=4&s=100" width="80" alt="kantorcodes"><br><sub><b>@kantorcodes</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kortix-seo"><img src="https://avatars.githubusercontent.com/u/347261315?v=4&s=100" width="80" alt="Kortix-seo"><br><sub><b>@Kortix-seo</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/liive"><img src="https://avatars.githubusercontent.com/u/17298647?v=4&s=100" width="80" alt="liive"><br><sub><b>@liive</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/liyangbing"><img src="https://avatars.githubusercontent.com/u/16144361?v=4&s=100" width="80" alt="liyangbing"><br><sub><b>@liyangbing</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/ljhskyso"><img src="https://avatars.githubusercontent.com/u/8700661?v=4&s=100" width="80" alt="ljhskyso"><br><sub><b>@ljhskyso</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Necmttn"><img src="https://avatars.githubusercontent.com/u/5212808?v=4&s=100" width="80" alt="Necmttn"><br><sub><b>@Necmttn</b></sub></a><br><span title="Content">🖋</span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/nk-ag"><img src="https://avatars.githubusercontent.com/u/46679818?v=4&s=100" width="80" alt="nk-ag"><br><sub><b>@nk-ag</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/reacher-z"><img src="https://avatars.githubusercontent.com/u/68239571?v=4&s=100" width="80" alt="reacher-z"><br><sub><b>@reacher-z</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/RishabhPande"><img src="https://avatars.githubusercontent.com/u/34928106?v=4&s=100" width="80" alt="RishabhPande"><br><sub><b>@RishabhPande</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/salemalem"><img src="https://avatars.githubusercontent.com/u/42411937?v=4&s=100" width="80" alt="salemalem"><br><sub><b>@salemalem</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/sofus-common"><img src="https://avatars.githubusercontent.com/u/13995189?v=4&s=100" width="80" alt="sofus-common"><br><sub><b>@sofus-common</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/soul-sol"><img src="https://avatars.githubusercontent.com/u/7576268?v=4&s=100" width="80" alt="soul-sol"><br><sub><b>@soul-sol</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/srpadmanabhuni"><img src="https://avatars.githubusercontent.com/u/109285560?v=4&s=100" width="80" alt="srpadmanabhuni"><br><sub><b>@srpadmanabhuni</b></sub></a><br><span title="Content">🖋</span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/suirindo"><img src="https://avatars.githubusercontent.com/u/45725946?v=4&s=100" width="80" alt="suirindo"><br><sub><b>@suirindo</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Swpn0neel"><img src="https://avatars.githubusercontent.com/u/121167506?v=4&s=100" width="80" alt="Swpn0neel"><br><sub><b>@Swpn0neel</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/teamtrytenet"><img src="https://avatars.githubusercontent.com/u/291855621?v=4&s=100" width="80" alt="teamtrytenet"><br><sub><b>@teamtrytenet</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/Val1-IT"><img src="https://avatars.githubusercontent.com/u/217456876?v=4&s=100" width="80" alt="Val1-IT"><br><sub><b>@Val1-IT</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/WhymustIhaveaname"><img src="https://avatars.githubusercontent.com/u/38423345?v=4&s=100" width="80" alt="WhymustIhaveaname"><br><sub><b>@WhymustIhaveaname</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/xizhuomengcontin"><img src="https://avatars.githubusercontent.com/u/319346922?v=4&s=100" width="80" alt="xizhuomengcontin"><br><sub><b>@xizhuomengcontin</b></sub></a><br><span title="Content">🖋</span></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/yagobski"><img src="https://avatars.githubusercontent.com/u/220980?v=4&s=100" width="80" alt="yagobski"><br><sub><b>@yagobski</b></sub></a><br><span title="Content">🖋</span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/zlareb1"><img src="https://avatars.githubusercontent.com/u/14848428?v=4&s=100" width="80" alt="zlareb1"><br><sub><b>@zlareb1</b></sub></a><br><span title="Content">🖋</span></td>
+  </tr>
+</tbody>
+</table>
+
+Key: 🖋 Content (resources added) · 📖 Documentation · 🚇 Infrastructure · 🚧 Maintenance
 
 ## Contributing
 
