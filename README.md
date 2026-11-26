@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Links Checked](https://img.shields.io/badge/links-checked-brightgreen.svg)](#contents)
-[![Focus: AgentOps](https://img.shields.io/badge/focus-AgentOps-blue.svg)](#scope)
+[![Focus: AgentOps](https://img.shields.io/badge/focus-AgentOps-blue.svg)](#awesome-agentops)
 [![Status: v0.1](https://img.shields.io/badge/status-v0.1-informational.svg)](#contributing)
 
 AgentOps is the production operating layer for AI agents. It is broader than agent monitoring: it covers how teams ship, observe, evaluate, debug, secure, control, and improve autonomous or semi-autonomous AI systems after they leave a demo environment.
@@ -22,8 +22,6 @@ This list is intentionally focused on engineering resources for production agent
 
 ## Contents
 
-- [Scope](#scope)
-- [Conceptual Map](#conceptual-map)
 - [AgentOps vs DevOps vs MLOps](#agentops-vs-devops-vs-mlops)
 - [Observability and Tracing](#observability-and-tracing)
 - [Evaluation and Testing](#evaluation-and-testing)
@@ -39,34 +37,6 @@ This list is intentionally focused on engineering resources for production agent
 - [Standards and Protocols](#standards-and-protocols)
 - [Research and References](#research-and-references)
 - [Contributing](#contributing)
-
-## Scope
-
-Included:
-
-- Production agent observability, tracing, evaluation, testing, and replay.
-- Runtime guardrails, policy checks, approvals, and control planes.
-- Agent security, identity, permissions, sandboxing, and secret handling.
-- Deployment, reliability, cost, latency, and incident response practices.
-- Multi-agent coordination and operational failure modes.
-
-Not included by default:
-
-- Generic LLM chat apps without an operational angle.
-- Prompt collections with no evaluation or production discipline.
-- Broad AI tool directories that do not focus on running agents.
-- Vendor marketing pages without useful engineering substance.
-
-## Conceptual Map
-
-AgentOps spans the full lifecycle of an agent system:
-
-1. **Design**: define tasks, tools, permissions, policies, and success criteria.
-2. **Build**: instrument traces, model calls, tool calls, memory, and state transitions.
-3. **Test**: run unit tests, scenario tests, adversarial tests, and regression evals.
-4. **Deploy**: manage environments, secrets, rollout, rate limits, and fallbacks.
-5. **Operate**: monitor correctness, safety, cost, latency, drift, and incidents.
-6. **Improve**: replay failures, evaluate fixes, update policies, and govern change.
 
 ## AgentOps vs DevOps vs MLOps
 

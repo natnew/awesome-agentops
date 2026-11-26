@@ -10,7 +10,7 @@ A curated awesome list for AgentOps (operating AI agents in production). `README
 
 | Need | Authoritative source |
 |---|---|
-| Scope, taxonomy, local entry format | `README.md` (read the target section and its neighbours) |
+| Taxonomy, local entry format | `README.md` (read the target section and its neighbours) |
 | Contributor-facing gates | `CONTRIBUTING.md` |
 | Scope rules, quality bar, link and description rules, placement, duplicates, Decision Matrix, Stop and Ask, Protected Areas | `AGENTS.md` |
 | Malicious or unsafe link reports | `SECURITY.md` |

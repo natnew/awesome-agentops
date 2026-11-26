@@ -48,7 +48,7 @@ Agents must not:
 
 Before reviewing or editing, read in this order:
 
-1. `README.md` — scope, taxonomy, formatting, protected areas, and existing examples
+1. `README.md` — taxonomy, formatting, protected areas, and existing examples
 2. `CONTRIBUTING.md` — what belongs, pull request guidelines, and entry format
 3. `SECURITY.md` — security reporting expectations, if relevant
 4. `CLAUDE.md` — Claude Code's additional workflow and output format, if applicable and not already read
@@ -58,9 +58,9 @@ Read these files once per task, then revisit only affected sections as needed. I
 
 ## Repository Facts
 
-* The `README.md` contains introductory sections, Contents, Scope, Conceptual Map, the AgentOps vs DevOps vs MLOps comparison, the main category sections, Contributing, and License.
+* The `README.md` contains introductory sections, Contents, the AgentOps vs DevOps vs MLOps comparison, the main category sections, Contributing, and License.
 * Resource entries currently use bullet lists; framing and comparison sections also contain tables. Match the target section's style rather than converting its format.
-* Many sections include explanatory text, operational checklists, or "what to track" notes around the entries (for example the Conceptual Map, the incident checklist, and the cloud comparison tables). Preserve them.
+* Many sections include explanatory text, operational checklists, or "what to track" notes around the entries (for example the incident checklist, and the cloud comparison tables). Preserve them.
 * The Cloud AgentOps Platforms section is split into per-provider subsections (Azure/Foundry, Google Cloud/Gemini, AWS/Bedrock). Add provider entries to the correct subsection.
 * `CONTRIBUTING.md` sets the gates: check the resource is not already listed, add it to the most specific section, keep the description factual and concise, and explain a non-obvious AgentOps connection.
 * Commercial tools are allowed when relevant and useful, but the list should not become a vendor directory.
@@ -249,7 +249,7 @@ If the current request does not already explicitly authorise the action, stop an
 * Creating a new top-level section
 * Reordering large parts of the README
 * Changing the Contents structure
-* Editing the Conceptual Map, the AgentOps vs DevOps vs MLOps comparison, or other framing sections
+* Editing the AgentOps vs DevOps vs MLOps comparison or other framing sections
 * Editing badges, banners, or visual assets
 * Changing contribution rules
 * Removing multiple entries
@@ -265,7 +265,7 @@ Do not edit unless explicitly instructed:
 * Badges
 * The Contributing banner and any `assets/` images
 * Contents
-* The Conceptual Map and the AgentOps vs DevOps vs MLOps comparison
+* The AgentOps vs DevOps vs MLOps comparison
 * Comparison tables and operational checklists
 * Contributor and acknowledgement sections
 * Licence text
