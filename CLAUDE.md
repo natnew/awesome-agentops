@@ -69,7 +69,7 @@ After any README edit, confirm with `git diff` that only the intended lines chan
 
 ## README invariants that are easy to break
 
-- Add new entries at the bottom of the section's entry list, which is **above** any trailing notes such as "Operational topics…", "Operational capabilities to track:", or checklists. Do not append after those notes.
+- Add new entries at the bottom of the section's entry list, which is **above** any trailing notes such as "Operational topics to cover in production reviews:" or "Useful approval patterns:". Do not append after those notes.
 - Cloud providers have their own `###` subsections under Cloud AgentOps Platforms; "What to compare across cloud platforms" is a protected table, not a place for entries.
 - Entry format is `- [Name](URL) - Description.` (hyphen separator, full stop).
 - Do not add a Contents line, heading, or section for a single entry.

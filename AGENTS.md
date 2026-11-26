@@ -60,7 +60,7 @@ Read these files once per task, then revisit only affected sections as needed. I
 
 * The `README.md` contains introductory sections, Contents, the AgentOps vs DevOps vs MLOps comparison, the main category sections, Contributing, and License.
 * Resource entries currently use bullet lists; framing and comparison sections also contain tables. Match the target section's style rather than converting its format.
-* Many sections include explanatory text, operational checklists, or "what to track" notes around the entries (for example the incident checklist, and the cloud comparison tables). Preserve them.
+* Some sections include explanatory text or trailing notes around the entries (for example "Operational topics to cover in production reviews:", "Useful approval patterns:", and the cloud comparison table). Preserve them.
 * The Cloud AgentOps Platforms section is split into per-provider subsections (Azure/Foundry, Google Cloud/Gemini, AWS/Bedrock). Add provider entries to the correct subsection.
 * `CONTRIBUTING.md` sets the gates: check the resource is not already listed, add it to the most specific section, keep the description factual and concise, and explain a non-obvious AgentOps connection.
 * Commercial tools are allowed when relevant and useful, but the list should not become a vendor directory.
@@ -122,7 +122,7 @@ Infer format from the surrounding section before editing.
 
 * Preserve the existing heading structure, including the per-provider subsections under Cloud AgentOps Platforms.
 * Preserve all anchors used by the Contents list.
-* Preserve badges, the Contributing banner, Contents, comparison tables, checklists, and other protected areas.
+* Preserve badges, the Contributing banner, Contents, comparison tables, trailing notes, and other protected areas.
 * Match the section's existing format: bullet list, table, heading, or grouped subsection.
 * For bullet entries, use `- [Name](https://example.com/) - Short description.`
 * Use HTTPS links where available.
@@ -174,7 +174,7 @@ Avoid hype such as "powerful", "revolutionary", "cutting-edge", or "game-changin
 6. Do not move many existing entries unless explicitly asked.
 7. If placement is uncertain, state the trade-off and recommend one option.
 8. New category proposals should usually be separate from single-entry PRs.
-9. When appending an entry, place it at the end of the resource list, before any following explanatory text or operational checklist.
+9. When appending an entry, place it at the end of the resource list, before any following explanatory text or trailing notes.
 
 ## Duplicate Checking Rules
 
@@ -266,7 +266,7 @@ Do not edit unless explicitly instructed:
 * The Contributing banner and any `assets/` images
 * Contents
 * The AgentOps vs DevOps vs MLOps comparison
-* Comparison tables and operational checklists
+* Comparison tables and trailing explanatory notes
 * Contributor and acknowledgement sections
 * Licence text
 * Repository metadata unrelated to the task
