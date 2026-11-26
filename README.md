@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Links Checked](https://img.shields.io/badge/links-checked-brightgreen.svg)](#contents)
-[![Focus: AgentOps](https://img.shields.io/badge/focus-AgentOps-blue.svg)](#scope)
+[![Focus: AgentOps](https://img.shields.io/badge/focus-AgentOps-blue.svg)](#awesome-agentops)
 [![Status: v0.1](https://img.shields.io/badge/status-v0.1-informational.svg)](#contributing)
 
 AgentOps is the production operating layer for AI agents. It is broader than agent monitoring: it covers how teams ship, observe, evaluate, debug, secure, control, and improve autonomous or semi-autonomous AI systems after they leave a demo environment.
