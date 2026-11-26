@@ -11,15 +11,6 @@
 
 AgentOps is the production operating layer for AI agents. It is broader than agent monitoring: it covers how teams ship, observe, evaluate, debug, secure, control, and improve autonomous or semi-autonomous AI systems after they leave a demo environment.
 
-This list is intentionally focused on engineering resources for production agents. It favors tools, papers, patterns, and references that help teams answer operational questions:
-
-- What did the agent do, and why?
-- Did it complete the task correctly, safely, and within policy?
-- Can we replay, debug, and evaluate failures?
-- Can humans approve, interrupt, or override high-impact actions?
-- Can we manage cost, latency, secrets, identity, and permissions?
-- Can we respond to agent incidents with evidence instead of guesswork?
-
 ## Contents
 
 - [AgentOps vs DevOps vs MLOps](#agentops-vs-devops-vs-mlops)
@@ -199,10 +190,6 @@ Useful approval patterns:
 
 ## Cloud AgentOps Platforms
 
-Major cloud platforms are beginning to expose AgentOps capabilities through managed agent runtimes, observability tools, tracing, evaluations, guardrails, identity controls, and governance features.
-
-This section tracks cloud-native services that help teams build, deploy, monitor, evaluate, secure, and govern AI agents in production.
-
 ### Microsoft Azure and Microsoft Foundry
 
 - [Microsoft Foundry Agent Service](https://learn.microsoft.com/en-us/azure/foundry/agents/overview) - Managed platform for building, deploying, and scaling AI agents across prompt agents, workflow agents, and hosted agents.
@@ -212,15 +199,6 @@ This section tracks cloud-native services that help teams build, deploy, monitor
 - [Azure AI Agent Adoption Process](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/build-secure-process) - Organisational guidance for building agents consistently and securely.
 - [Microsoft Entra Agent ID](https://learn.microsoft.com/entra/agent-id/) - Identity platform for registering AI agents, issuing agent identities from blueprints, and applying access policies to them.
 
-Operational capabilities to track:
-
-- agent inventory and lifecycle management
-- managed agent hosting
-- tracing and evaluation
-- multi-agent orchestration patterns
-- security and governance controls
-- organisational adoption processes
-
 ### Google Cloud and Gemini Enterprise Agent Platform
 
 - [Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/overview) - Unified platform for building, deploying, governing, and optimising enterprise-grade AI agents.
@@ -228,15 +206,6 @@ Operational capabilities to track:
 - [Agent Platform Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/runtime) - Managed runtime services for deploying, managing, and scaling AI agents in production.
 - [Agent Development Kit](https://google.github.io/adk-docs/) - Open-source framework for building and orchestrating agents.
 - [Agent identity and IAM](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale) - Identity and access management patterns for deployed agents.
-
-Operational capabilities to track:
-
-- managed serverless agent runtime
-- tracing, logging, monitoring, and alerts
-- IAM-based agent identity
-- session and memory management
-- secure connectivity through Agent Gateway
-- production scaling controls
 
 ### AWS, Amazon Bedrock and Amazon Bedrock AgentCore
 
@@ -250,15 +219,6 @@ Operational capabilities to track:
 - [Monitor Amazon Bedrock Agents with CloudWatch](https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring-agents-cw-metrics.html) - Runtime metrics for monitoring agent invocations and performance.
 - [Amazon Bedrock Guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html) - Configurable safeguards for generative AI applications and agent workflows.
 - [Amazon Bedrock Security, Guardrails, and Observability](https://docs.aws.amazon.com/bedrock/latest/userguide/security.html) - Security and compliance guidance for Bedrock-based systems.
-
-Operational capabilities to track:
-
-- agent orchestration and API action execution
-- traces for agent reasoning and tool use
-- CloudWatch metrics and logs
-- CloudTrail auditability
-- guardrails and policy enforcement
-- knowledge base and runtime monitoring
 
 ### What to compare across cloud platforms
 
@@ -284,15 +244,6 @@ When evaluating cloud AgentOps capabilities, compare:
 - [Vercel AI Gateway](https://vercel.com/ai-gateway) - Gateway for model routing, observability, and usage controls.
 - [AgentOps for senior engineers](https://aiarch.dev/agentops-for-senior-engineers) - Guide mapping SRE and DevOps practices (tracing, cost control, least privilege, evals) onto production agents, with two as-built production bugs.
 
-Agent-specific signals worth tracking:
-
-- Task success rate and policy violation rate.
-- Tool call count, tool error rate, and tool latency.
-- Model fallback rate and retry rate.
-- Cost per task, cost per successful task, and cost per user.
-- Human escalation rate and approval rejection rate.
-- Context length, memory growth, and retrieval quality.
-
 ## Incident Response and Governance
 
 - [PagerDuty Incident Response](https://www.pagerduty.com/resources/learn/incident-response/) - Practical incident response concepts and lifecycle.
@@ -305,14 +256,6 @@ Agent-specific signals worth tracking:
 - [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - International standard for establishing, auditing, and certifying an AI management system.
 - [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) - Official text of the EU regulation setting risk-tiered obligations for AI systems, including human oversight, robustness, and transparency requirements.
 
-Agent incident checklist:
-
-- Preserve traces, prompts, tool inputs, tool outputs, retrieved context, and approval records.
-- Identify whether the failure came from model behaviour, retrieval, tool execution, policy, permissions, or orchestration.
-- Reproduce the run with the same inputs where possible.
-- Add regression evals before changing prompts, tools, or policies.
-- Record user impact, safety impact, cost impact, and data exposure.
-
 ## Multi-Agent Operations
 
 - [AutoGen](https://github.com/microsoft/autogen) - Framework for building multi-agent AI applications.
@@ -324,14 +267,6 @@ Agent incident checklist:
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Typed Python agent framework with OpenTelemetry GenAI tracing of runs, model calls, and tools, plus a companion evaluation library.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Python and .NET framework for agents and multi-agent workflows, successor to AutoGen and Semantic Kernel, with built-in OpenTelemetry GenAI telemetry.
 - [Agent Role Contracts](https://github.com/suirindo/agent-role-contracts) - Offline checker for declared agent roles, task scopes, review separation, and handoffs before dispatch; does not grant execution authority or enforce runtime permissions.
-
-Operational concerns for multi-agent systems:
-
-- Shared state ownership and conflict resolution.
-- Message visibility, routing, and provenance.
-- Tool access per agent role.
-- Runaway loops, deadlocks, and duplicated work.
-- Evaluation at both individual-agent and system levels.
 
 ## Standards and Protocols
 
