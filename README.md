@@ -111,6 +111,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [EvalShift](https://github.com/evalshift/evalshift-cli) - Open-source CLI and capture SDK that replays recorded agent runs on the current and a candidate model before a model switch, comparing tool calls, outputs and cost with paired significance tests and a CI gate.
 - [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of recorded agent traces, A2A AgentCards and MCP tool lists, with per-check evidence and CI reports.
 - [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Benchmark for agents that reconstruct full-stack websites through browser exploration, evaluated on appearance and behavior.
+- [ARQUÍA-EVAL-001](https://github.com/argensite/arquia-eval-001) - Offline Python regression tests for agent permission revocation, late tool receipts, and permission checks at dispatch and effect, with JSON reports and deliberate failure controls.
 
 
 
