@@ -188,6 +188,7 @@ Useful approval patterns:
 - [Fly.io](https://fly.io/) - Application runtime useful for globally deployed agent services.
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Self-hosted agent runtime with persistent sessions, MCP tools, sandbox providers, approvals, credentials, audit logs, and replay.
 - [Reef](https://github.com/Human-Agent-Society/reef) - Self-hosted agent serving runtime that records each request behind an OpenAI- and Anthropic-compatible endpoint, returns a receipt for attaching scores or feedback later, and publishes model or harness updates as versioned, rollback-capable artifacts without a restart.
+- [Sandscale](https://sandscale.dev/docs) - Hosted Firecracker microVM sandboxes and workspaces for coding agents, with allow/ask/deny policies per tool, approval gates, a vault that keeps secrets out of prompts and logs, and a hash-chained audit log.
 
 ## Cloud AgentOps Platforms
 
