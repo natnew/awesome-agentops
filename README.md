@@ -150,6 +150,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 - [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault and records each action in an audit log.
 - [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - Remote MCP server and agent skills that let coding agents check npm packages for malware, known vulnerabilities, maintainer takeovers, and install scripts before installing them.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Open-source CLI and GitHub Action that scans the skills, bundled scripts and MCP configs agents install for prompt injection, credential reads, remote-exec installs and persistence before rollout, and fails pull requests that widen a skill's network, secret or shell access beyond a reviewed threat model.
 
 
 Operational topics to cover in production reviews:
